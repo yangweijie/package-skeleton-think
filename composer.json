@@ -1,0 +1,20 @@
+{
+    "name": "yangweijie/package-skeleton-think",
+    "description": ":package_description",
+    "type": "metapackage",
+    "autoload": {
+        "psr-4": {
+            "VendorName\\Skeleton\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": ":author",
+            "email": "author@domain.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.4"
+    }
+}
